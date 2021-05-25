@@ -1,0 +1,36 @@
+.logon-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5fbd74;
+}
+.section-login{
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 25%;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+}
+.section-login h2{
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.log-input{
+    margin-bottom: 15px;
+}
+.log-btn{
+    background-color: #5fbd74;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.section-login h6{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    color: #252d32;
+}
+.section-login h6 a{
+    color: #5fbd74;
+}

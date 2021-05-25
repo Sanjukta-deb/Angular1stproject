@@ -1,0 +1,46 @@
+.register-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5fbd74;
+}
+.section-register{
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 13%;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+}
+.section-register h1{
+    padding-bottom: 5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-register p{
+    font-size: 13px;
+    color: #aaa;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.reg-input{
+    margin-bottom: 15px;
+}
+.reg-btn{
+    background-color: #5fbd74;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.section-register h6{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    color: #252d32;
+}
+.section-register h6 a{
+    color: #5fbd74;
+}

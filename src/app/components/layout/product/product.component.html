@@ -1,0 +1,49 @@
+<app-header></app-header>
+<div class="section-subban" style="background-image: url(../assets/images/bg_breadcrum.jpg);">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="subpage-content">
+          <h2>Product Page</h2>
+          <!-- <nav aria-label="breadcrumb" class="justify-content-center">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Product</li>
+            </ol>
+          </nav> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="product-page-section">
+  <div class="container">
+    
+    <mat-grid-list cols="4" rowHeight="500px" gutterSize="15px" >
+
+      <mat-grid-tile *ngFor="let a of productarr">
+        <mat-card class="example-card">
+          <img mat-card-image src="{{a.image}}" alt="Photo of a Shiba Inu">
+          <mat-card-content>
+            <h4>{{a.vegname}}</h4>
+            <h5>{{a.price}}</h5>
+          </mat-card-content>
+          <mat-card-actions>
+            <a routerLink="/product-details/{{a.vegname}}/{{a.id}}"><button mat-button
+              class="example-ripple-form-field addtocart-btn">Add To Cart</button></a>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+
+    </mat-grid-list>
+
+  </div>
+</div>
+
+<!-- <ul *ngFor="let a of productarr">
+  <li class="pro-list"><a routerLink="/product-details/{{a.vegname}}/{{a.id}}">{{a.vegname}}</a></li>
+</ul> -->
+
+
+<!-- footer -->
+<app-footer></app-footer>

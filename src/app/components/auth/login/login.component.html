@@ -1,0 +1,25 @@
+<div class="logon-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-3">
+                <div class="section-login">
+                    <h1>Login</h1>
+                    <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+                        <div class="form-group">
+                          <input type="email" name="email" formControlName="email" class="form-control log-input" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                          <input type="password" name="password" formControlName="password" class="form-control log-input" placeholder="Password" required>
+                        </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        </div>
+                        <button type="submit" class="btn log-btn">Log In</button>
+                      </form>
+                    <h6>Dont have an account? <a routerLink="/registration">Register</a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

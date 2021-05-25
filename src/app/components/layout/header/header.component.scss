@@ -1,0 +1,62 @@
+// top bar
+.section-topbar{
+    // border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    color: #252d32;
+}
+.top-right{
+    text-align: right;
+}
+.top-right ul{
+    padding: 0px;
+}
+.top-right ul li a{
+    color: #252d32;
+}
+
+// middle header
+
+.section-search-login{
+    padding: 15px 0px;
+    letter-spacing: 0.5px;
+    background-color: #f9f9f9;
+}
+
+.section-login-registration{
+    margin-top: 15px;
+    text-align: right;
+    font-size: 13px;
+}
+.section-login-registration ul li a{
+    color:#252d32;
+}
+.section-search{
+    position: relative;
+}
+.submit-btn{
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 10px;
+    background-color: #5fbd74;
+    padding:5px 20px;
+    font-size: 13px;
+    color: #fff;
+}
+.search-btn{
+    padding: 15px;
+    font-size: 13px;
+}
+
+.section-nav{
+    background-color: #5fbd74;
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.nav-link{
+    color: #fff;
+    text-transform: uppercase;
+}

@@ -1,0 +1,46 @@
+// sub banner
+.section-subban{
+  padding: 50px 0px;
+  background-position: center;
+  background-size: cover;
+}
+.subpage-content{
+  text-align: center;
+}
+.subpage-content h2{
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.brcm{
+  text-align: center;
+  float: none;
+}
+
+// mat-grid-tile {
+//     background: lightblue;
+//   }
+
+
+// card
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.addtocart-btn{
+  background-color: #5fbd74;
+  color: #fff;
+}
+mat-card-content h4{
+  color: #191919;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+mat-card-content h5{
+  color: #5fbd74;
+}
